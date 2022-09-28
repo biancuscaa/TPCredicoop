@@ -18,6 +18,15 @@ public class AutenticadorDeUsuario {
     public void agregarNuevoUsuario(Usuario usuarioNuevo){
         this.listaDeUsuarios.add(usuarioNuevo);
     }
+    // existeUsuario(usuarioNuevo)
+    //             integer i=0,;
+    //             for(i=0 ,i<listaDeUsuarios.lenght, i++ ){
+    //                      if (listaDeUsuarios[i] == usuarioNuevo){
+    //                          alert("el usuario ingresado ya existe, por favor intente iniciando sesion");
+    //                      } else {
+    //                      this.listaDeUsuarios.add(usuarioNuevo)}
+    //                NOSE SI SE HACE ASI PERO BUENO, LA IDEA
+
     public boolean esGestor(String usuario){
         for (Usuario u : listaDeUsuarios){
             if (u.getId().equals(usuario) ){

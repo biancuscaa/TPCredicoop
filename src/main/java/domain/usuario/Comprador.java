@@ -2,7 +2,7 @@ package domain.usuario;
 
 import domain.usuario.Usuario;
 
-public class Comprador extends Usuario {
+public class Comprador extends Usuario //(datosDeFacturacion ) {
     
     public void recibirFactura(){
 

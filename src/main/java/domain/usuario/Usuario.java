@@ -18,6 +18,8 @@ public abstract class Usuario  {
         this.id = id;
         this.tipoDeUsuario = tipoDeUsuario;
     }
+    // por que esta dos veces?
+
     public Usuario(String id, String password, TipoDeUsuario tipoDeUsuario) {
         this.id = id;
         this.password = password;
@@ -29,6 +31,7 @@ public abstract class Usuario  {
             ServicioExterno.emitirFactura(medioDePago, monto, usuario.getId(), this.id);
         }
     }
+    // para mi este de aceptar pago tendria q estar directamente en vendedor
 
     // TODO: 16/9/2022 hacer excepciones try...catch por si se confundio la contrasenia al entrar
     // TODO: 16/9/2022 como autentifico los usuarios de vendedores y gestores?
