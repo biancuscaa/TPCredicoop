@@ -1,6 +1,6 @@
 package domain.models.entities.usuarios.comprador;
 
-import domain.models.entities.productos.ProductoFinal;
+import domain.models.entities.productos.Publicacion;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,13 +11,15 @@ public class Carrito {
     @GeneratedValue
     private Integer id;
 
+    private Integer idComprador;
+
     private Integer importe;
 
     private Estado estado;
 
     private Compra compra;
 
-    private List<ProductoFinal> items;
+    private List<Publicacion> items;
 
 
 

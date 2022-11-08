@@ -7,5 +7,7 @@ public class AreasDePersonalizacion {
     @Setter
     @Getter
     private String nombre;
+    private TiposDePersonalizacion tipoDePersonalizacion;
+
 
 }

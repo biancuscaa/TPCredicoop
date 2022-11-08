@@ -8,7 +8,5 @@ public abstract class Usuarios {
     @GeneratedValue
     private Integer id;
 
-    private String nombre;
-
     private TipoDeUsuario tipoDeUsuario;
 }

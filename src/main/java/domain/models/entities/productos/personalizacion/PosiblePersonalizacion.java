@@ -16,13 +16,10 @@ public class PosiblePersonalizacion {
 
     @Setter
     @Column(name = "Areas de personalizacion")
-    private List<AreasDePersonalizacion> areasDePersonalizacion;
+    private AreasDePersonalizacion areasDePersonalizacion;
 
-    @Setter
-    @Column(name = "Tipo de personalizacion")
-    private List<TiposDePersonalizacion> tiposDePersonalizacion;
+    private Integer precioPersonalizacion;
 
-    public PosiblePersonalizacion(){
-        this.tipoDePersonalizacion = new ArrayList<>()
+
     }
 }

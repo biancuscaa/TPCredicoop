@@ -5,8 +5,11 @@ import domain.models.entities.usuarios.vendedor.Vendedor;
 import java.util.Date;
 
 public class Factura {
-    private DatosFacturacion datosFacturacion;
-    private Vendedor emisor;
+    private Comprador comprador;
+    private Vendedor vendedor;
     private Date fechaYhora;
+
+
+    // TODO: private generadorDeFacturas();
 
 }

@@ -11,4 +11,7 @@ public class TiposDePersonalizacion {
     @Setter
     @Getter
     private String descripcion;
+
+    private String contenido; //tipo de dato universal
+
 }

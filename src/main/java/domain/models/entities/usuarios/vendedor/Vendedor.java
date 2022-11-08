@@ -1,6 +1,5 @@
 package domain.models.entities.usuarios.vendedor;
 
-import domain.models.entities.productos.ProductoFinal;
 import domain.models.entities.usuarios.Usuarios;
 
 import javax.persistence.*;
@@ -15,12 +14,11 @@ public class Vendedor extends Usuarios {
 
     private String nombre;
     private String contrasenia;
-    private MediosDePago mediosDePago;
-    private Contacto contacto;
+    private List<MediosDePago> mediosDePago;
+    private List<Contacto> contacto;
 
 
-    @Column(name = "Tienda") //, columnDefinition = // TODO: 06/10/2022 darle un tipo de dato predefinido de acuerdo con el disenio de bdd para optimizar el espacio
-    private Tienda tienda;
+
 
 
 
