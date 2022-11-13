@@ -14,7 +14,7 @@ public class PosiblePersonalizacion {
     @GeneratedValue
     private Integer id;
 
-    @Setter
+
     @Column(name = "Areas de personalizacion")
     private AreasDePersonalizacion areasDePersonalizacion;
 
@@ -22,4 +22,4 @@ public class PosiblePersonalizacion {
 
 
     }
-}
+

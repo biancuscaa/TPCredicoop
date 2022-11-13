@@ -18,11 +18,11 @@ public class Publicacion {
     private ProductoBase productoBase;
 
     @Column(name="Precio final")
-    @Setter
+
     private String precioFinal /* TODO: = '$'+ sumaPrecios*/ ;
 
     @Column(name="Personalizacion")
-    @Setter
+
     private PosiblePersonalizacion personalizaciones;
 
     private EstadoDePublicacion estadoDePublicacion;

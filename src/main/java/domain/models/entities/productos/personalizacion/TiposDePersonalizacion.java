@@ -4,12 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class TiposDePersonalizacion {
-    @Setter
-    @Getter
+
     private String nombre;
 
-    @Setter
-    @Getter
     private String descripcion;
 
     private String contenido; //tipo de dato universal
